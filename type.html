@@ -1,0 +1,79 @@
+<html>
+
+    <head>
+        
+     <title> Type </title>
+     <link href="type.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    
+    </head>
+    
+    <body>
+    
+        <header>
+            <h1> Ninad Kale </h1>
+        </header>
+        
+        <div class="nav">
+        
+            <nav class="pullright">
+            
+                <ul>
+                
+                    <li><a href="Poppins.html">poppins</a></li>
+                    <li><a href="Halant.html">halant</a></li>
+                
+                </ul>
+                
+                <button class="toggle">
+                
+                    <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            
+            </nav>
+        
+        </div>
+        
+        <div class="container">
+        
+           <div class="group">
+            
+                <div class="cover">
+               
+                <a href="Poppins.html"><figure><img src="cover_image1-01.png">
+                    <figcaption><h1>Poppins Devanagari</h1><br><h2>A Geometric non-latin typeface.</h2></figcaption></figure></div></a>
+               
+               </div>
+            
+        </div>
+        
+        <div class="container">
+        
+           <div class="group">
+            
+                <div class="cover">
+               
+                <a href="Halant.html"><figure><img src="cover_image2-01.png">
+                    <figcaption1><h1>Halant Devanagari</h1><br><h2>Traditional in appearance-based on calligraphic principles.</h2></figcaption1></figure></div></a>
+               
+               </div>
+            
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <script>
+            
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.pullright ul').slideToggle();
+                });
+            });
+        
+        </script>
+    
+    </body>
+
+</html>

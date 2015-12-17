@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #041A28;
+    color: white;
+}
+
+.group::after,
+.container::after,
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #041A28;
+    padding: 20px;
+    position: fixed;
+}
+
+
+
+h3{
+    font-size: 40px;
+    color: #FF3D3D;
+    float: left;
+}
+
+h4{
+    font-size: 20px;
+    color: #FF3D3D;
+    float: left;
+}
+
+h2{
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    padding-top: 4px;
+    font-weight: 300;
+}
+
+h5{
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Halant', serif;
+}
+
+h6{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Halant', serif;
+    font-weight: 300;
+}
+
+h7{
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Halant', serif;
+    font-weight: 600;
+}
+
+h8{
+    font-size: 120px;
+    color: #fff;
+    font-family: 'Halant', serif;
+    font-weight: 500;
+}
+
+h9{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Halant', serif;
+    font-weight: 400;
+}
+    
+.Font-name{
+    width: calc(100%);
+    padding-top: 100px;
+    padding-left: 1rem;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    width: 35vw;
+    padding-top: 10px;
+    padding-left: 1rem;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.font-menu{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 1rem;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+.font-spec{
+    box-sizing: content-box;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    padding-left: 15rem;
+    
+}
+
+.font-example-bold{
+    box-sizing: content-box;
+    width: 100%;
+    
+    white-space: nowrap;
+}
+
+.container{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 1rem;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.group{
+    width: 80vw;
+    float: left;
+    padding: 20px;
+}
+
+.cover{
+    width: 100%;
+    padding: 30px;
+    height: 30vh;
+}

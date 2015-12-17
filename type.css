@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #041A28;
+    color: white;
+}
+
+.group::after,
+.container::after,
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #041A28;
+    padding: 20px;
+    position: fixed;
+}
+
+.nav{
+    position: absolute;
+    right: 0px;
+}
+
+.pullright{
+    position: fixed;
+    top: 1em;
+    right: 2em;
+    z-index: 99999;
+}
+
+.pullright ul{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 50px 0;
+    position: absolute;
+    top: 4.9em;
+}
+
+.pullright ul li{
+    display: block;
+    
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #FF3D3D;
+    padding: 5px;
+    text-decoration: none;
+    outline: transparent;
+    transition: all 600ms;
+}
+
+.pullright button.toggle{
+    right:1em;
+    border-radius: 2px;
+    outline: transparent;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    width: 60px;
+    position: relative;
+}
+
+button{
+    text-decoration: none;
+    border: 0;
+    box box-shadow: none;
+    text-shadow: 0 0px 0 rgba(0, 0, 0, 0);
+}
+
+.pullright button.toggle span{
+    background: #FF3D3D;
+    border-radius: 2px;
+    display: block;
+    height: 4px;
+    margin: 6px;
+}
+
+h1{
+    font-size: 40px;
+    color: #fff;
+    float: left;
+}
+
+
+h2{
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    padding-top: 4px;
+    font-weight: 300;
+}
+
+.container{
+    width: calc(100%);
+    padding-top: 100px;
+    padding-left: 1rem;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.group{
+    width: 80vw;
+    float: left;
+    padding: 20px;
+}
+
+.cover{
+    width: 100%;
+    padding: 30px;
+    height: 30vh;
+}
+
+figure{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    display: none;
+    position: absolute;
+    padding: 35px;
+    font-family: Helvetica,Arial,serif;
+    font-size: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FF3D3D;
+}
+
+figcaption1 {
+    display: none;
+    position: absolute;
+    padding: 35px;
+    font-family: Helvetica,Arial,serif;
+    font-size: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #EDEDED;
+}
+
+ figure:hover figcaption {
+    display: block;
+    font-size:40px; font-weight:700;
+}
+
+figure:hover figcaption1 {
+    display: block;
+    font-size:40px; font-weight:700;
+}
+    
+@media (max-width:1400px){
+    .container{
+            width:auto;
+            padding-top: 0;
+    }
+    
+    .group{
+            width: 100%;
+            padding-right: 0;
+            padding-bottom: 20px;
+    }
+    
+    .cover{
+            padding: 20px;
+            height: auto;
+    }
+    
+    header {
+    position: relative;
+    padding: 20px;
+    height: 50px;
+}
+    figcaption {
+    display: block;
+    background-color: rgba(0,0,255,0);
+    background-image: url(images/cover_bg.png);
+    background-repeat: repeat;
+    position: relative;
+}
+    
+    figcaption1 {
+    display: block;
+    background-color: rgba(0,0,255,0);
+    background-image: url(images/cover_bg.png);
+    background-repeat: repeat;
+    position: relative;
+}
+    
+}
+
+@media (max-width:700px){
+    .container{
+            width:auto;
+            padding-top: 0;
+    }
+    
+    .group{
+            width: 100%;
+            padding-right: 0;
+            padding-bottom: 20px;
+    }
+    
+    .cover{
+            padding: 20px;
+            height: auto;
+    }
+    
+    header {
+    position: relative;
+    padding: 20px;
+    height: 50px;
+}
+    figcaption {
+    display: block;
+    background-color: rgba(0,0,255,0);
+    background-image: url(images/cover_bg.png);
+    background-repeat: repeat;
+    position: relative;
+}
+    
+    figcaption1 {
+    display: block;
+    background-color: rgba(0,0,255,0);
+    background-image: url(images/cover_bg.png);
+    background-repeat: repeat;
+    position: relative;
+}
+    
+}
+
